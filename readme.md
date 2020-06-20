@@ -21,7 +21,8 @@ Note: To go one step further, after unfollowing all users, you can make it scrol
 
 ## Facebook - remove facebook ads
 
-This task will find and remove all ads within your facebook home page feed.
+This task will find and remove all ads within your facebook home page feed. 
+_Please use as example purpose only_
 
 To use the task, create a task from the `remove-facebook-ads.js` file:
 
