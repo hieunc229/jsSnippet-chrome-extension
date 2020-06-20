@@ -70,13 +70,19 @@ jsSnippet.onEventEmit(function(data) {
 })
 ```
 
-## How to install JSSnippet?
+## How to install jsSnippet?
 
 To install JSSnippet to your browser, navigate to [jsSnippet-chrome-extension Releases](https://github.com/hieunc229/jsSnippet-chrome-extension/releases) page. 
 
 With the latest release:
 1. Download `jsSnippet.crx`, or the attached `Source code` and unzip (if you want the `readme.md` file)
 2. Either double click on jsSnippet.crx, or drag the file and drop into Chrome to complete installation.
+
+## Examples
+
+You can find the examples task from the [examples branch](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples). Available examples:
+- [Twitter - unfollow non-follower](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples#twitter---unfollow-non-follower) 
+- [Facebook - remove facebook ads](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples#facebook---remove-facebook-ads)
 
 ## Feedback and support
 
