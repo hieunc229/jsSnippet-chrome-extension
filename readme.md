@@ -66,3 +66,15 @@ jsSnippet.onEventEmit(function(data) {
     // window => webpage window
 })
 ```
+
+## How to install JSSnippet?
+
+To install JSSnippet to your browser, navigate to [jsSnippet-chrome-extension Releases](https://github.com/hieunc229/jsSnippet-chrome-extension/releases) page. 
+
+With the latest release:
+1. Download `jsSnippet.crx`, or the attached `Source code` and unzip (if you want the `readme.md` file)
+2. Either double click on jsSnippet.crx, or drag the file and drop into Chrome to complete installation.
+
+## Feedback and support
+
+Feel free to file an issue for feedback, or bug report
