@@ -20,13 +20,17 @@ You can write a task as how you write to the browser console. Your task code is 
 
 The `jsSnippet` variable in the code block has 3 functions:
 
-1. setLabelinnerHTML(labelinnerHTML: string)
-1.a. It is used to set the current task label, take an argument as an innerHTML. 
-1.b. When you need to add a button, simple add `<button data-action="alert" data-value="Hello World">Alert</button>` to string. All `button` elements will automatically triggle `onEventEmit` event below (section 2).
+1. **setLabelinnerHTML(labelinnerHTML: string)**
 
-2. onEventEmit(eventListener: Function)
-2.a. It is used to listen to all `button` elements in the current task label (section 1.b). Every time a button is clicked, it trigger the `eventListener` callback function. The argument received is the button's dataset.
-2.b. To continue the example on section 1.b, when the button click, the data passed through `eventListener` will be:
+    1.a. It is used to set the current task label, take an argument as an innerHTML. 
+
+    1.b. When you need to add a button, simple add `<button data-action="alert" data-value="Hello World">Alert</button>` to string. All `button` elements will automatically triggle `onEventEmit` event below (section 2).
+
+2. **onEventEmit(eventListener: Function)**
+
+    2.a. It is used to listen to all `button` elements in the current task label (section 1.b). Every time a button is clicked, it trigger the `eventListener` callback function. The argument received is the button's dataset.
+
+    2.b. To continue the example on section 1.b, when the button click, the data passed through `eventListener` will be:
 
 ```js
 jsSnippet.onEventEmit(function(data) {
@@ -37,8 +41,9 @@ jsSnippet.onEventEmit(function(data) {
 })
 ```
 
-3. completeTask()
-3.a It is used to flag the task has completely executed, either failed or successfully
+3. **completeTask()**
+
+    3.a It is used to flag the task has completely executed, either failed or successfully
 
 ## Example of a task
 
