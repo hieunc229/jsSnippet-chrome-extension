@@ -8,6 +8,14 @@ An unofficial Chrome extension to create, execute custom javascript tasks.
 
 A JS Snippet task is a javascript code block, is used to complete a task. For example, you can write a javascript code to unfollow people on Twitter. Everytime you run the task, it will execute your javascript snippet, which will search and unfollow people.
 
+## How to install jsSnippet?
+
+To install JSSnippet to your browser, navigate to [jsSnippet-chrome-extension Releases](https://github.com/hieunc229/jsSnippet-chrome-extension/releases) page. 
+
+With the latest release:
+1. Download `jsSnippet.crx`, or the attached `Source code` and unzip (if you want the `readme.md` file)
+2. Either double click on jsSnippet.crx, or drag the file and drop into Chrome to complete installation.
+
 ## How to write a task?
 
 You can write a task as how you write to the browser console. Your task code is wrapped within a code block:
@@ -45,7 +53,14 @@ jsSnippet.onEventEmit(function(data) {
 
     3.a It is used to flag the task has completely executed, either failed or successfully
 
-## Example of a task
+## Examples
+
+You can find the examples task from the [examples branch](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples). Available examples:
+
+- [Twitter - unfollow non-follower](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples#twitter---unfollow-non-follower) 
+- [Facebook - remove facebook ads](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples#facebook---remove-facebook-ads)
+
+Below is a quick example:
 
 ```js
 (function (jsSnippet) {
@@ -74,20 +89,6 @@ jsSnippet.onEventEmit(function(data) {
     // window => webpage window
 })
 ```
-
-## How to install jsSnippet?
-
-To install JSSnippet to your browser, navigate to [jsSnippet-chrome-extension Releases](https://github.com/hieunc229/jsSnippet-chrome-extension/releases) page. 
-
-With the latest release:
-1. Download `jsSnippet.crx`, or the attached `Source code` and unzip (if you want the `readme.md` file)
-2. Either double click on jsSnippet.crx, or drag the file and drop into Chrome to complete installation.
-
-## Examples
-
-You can find the examples task from the [examples branch](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples). Available examples:
-- [Twitter - unfollow non-follower](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples#twitter---unfollow-non-follower) 
-- [Facebook - remove facebook ads](https://github.com/hieunc229/jsSnippet-chrome-extension/tree/examples#facebook---remove-facebook-ads)
 
 ## Feedback and support
 
