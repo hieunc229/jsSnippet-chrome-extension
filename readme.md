@@ -1,5 +1,8 @@
 # JSSnippet (Chrome extension)
+
 An unofficial Chrome extension to create, execute custom javascript tasks.
+
+<img src="demo.png" width="460" />
 
 ## What is a task?
 
