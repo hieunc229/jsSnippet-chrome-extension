@@ -1,5 +1,7 @@
 # JSSnippet (Chrome extension)
 
+<a href="https://www.producthunt.com/posts/jssnippet?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-jssnippet" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=207984&theme=dark" alt="jsSnippet - Create and run custom JavaScript tasks on Chrome | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+
 An unofficial Chrome extension to create, execute custom javascript tasks.
 
 <img src="demo.png" width="460" />
