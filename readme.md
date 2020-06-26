@@ -1,5 +1,7 @@
 # JSSnippet examples
 
+This branch contains automated tasks, used for example purpose.
+
 To create a task:
 
 1. From the `JS Snippet` panel, click `Create a snippet`
@@ -7,9 +9,19 @@ To create a task:
 3. Copy and paste the code from the example file
 3. Click `Create`
 
+## Twitter - follow members in a list
+
+This task will list, follow all members in a Twitter list and repeat. There are also a few configurations to avoid flusing too many activity too quick.
+
+To use the task, create a task from the `twitter-follow-list.js` file:
+
+1. From your Twitter profile, navigate to `Following` section
+2. Open `JS Snippet` panel and click `[start]` on the task name
+3. Sit and look, it will automatically confirm unfollowing too
+
 ## Twitter - unfollow non-follower
 
-This task will find and unfollow any one who are not following you.
+This task will find and unfollow any one who are not following you. 
 
 To use the task, create a task from the `twitter-unfollow.js` file:
 
@@ -21,8 +33,7 @@ Note: To go one step further, after unfollowing all users, you can make it scrol
 
 ## Facebook - remove facebook ads
 
-This task will find and remove all ads within your facebook home page feed. 
-_Please use as example purpose only_
+This task will find and remove all ads within your facebook home page feed.
 
 To use the task, create a task from the `remove-facebook-ads.js` file:
 
